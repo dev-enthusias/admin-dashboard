@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="admindashboard.css" />
+
+    <title>Document</title>
+  </head>
+  <body class="ad-body">
+    <nav class="ad-nav">
+      <div class="ad-logo--wrapper">
+        <h2>Logo</h2>
+      </div>
+      <!-- Logout button -->
+      <button class="ad-logout border-green bg-green">Logout</button>
+    </nav>
+
+    <main class="ad-main">
+      <div class="flex-x-between mb-30">
+        <h1 class="text-24 font-bold">Users</h1>
+        <label for="toggle-addNew" class="ad-btn-add ad-btn">
+          <svg
+            width="15"
+            height="16"
+            viewBox="0 0 15 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g id="Group 37039">
+              <line
+                id="Line 5"
+                x1="7.52148"
+                y1="1.5"
+                x2="7.52148"
+                y2="14.5"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+              <line
+                id="Line 6"
+                x1="1"
+                y1="7.97852"
+                x2="14"
+                y2="7.97852"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+            </g>
+          </svg>
+          Add users
+        </label>
+        <input type="checkbox" id="toggle-addNew" class="ad-toggle-input" />
+      </div>
+
+      <!-- <div class="modal">
+        <form class="ad-new-user__form">
+          <label for="new-user"></label>
+          <input type="text" id="new-user" />
+        </form>
+      </div> -->
+
+      <div class="flex-x-between mb-14">
+        <p class="ad-total-users">
+          All (
+          <!-- Specify the total number of users here -->
+          <span class="">5</span>
+          )
+        </p>
+
+        <input
+          type="search"
+          aria-label="search"
+          name="search"
+          placeholder="Search for a domain"
+          class="searchbar"
+        />
+      </div>
+
+      <!-- Table header -->
+      <div class="ad-table-header">
+        <table>
+          <tr>
+            <th width="5%">ID</th>
+            <th width="20%">URL</th>
+            <th width="40%">API</th>
+            <th width="15%">REG DATE</th>
+            <th width="15%">EXP DATE</th>
+            <th width="5%"></th>
+          </tr>
+        </table>
+      </div>
+
+      <!-- Table body -->
+      <table class="ad-table-body">
+        <!-- Sample Data you can make edit to this after passing the data -->
+        <tr>
+          <td width="5%">1</td>
+          <td width="20%">domain.com</td>
+          <td width="40%">dinfae90r9qhrunidbfufah9q4rh9</td>
+          <td width="15%">18-05-2023</td>
+          <td width="15%">20-05-2025</td>
+          <td class="5%">
+            <!-- Delete button this would be present in every table row (tr) -->
+            <button class="ad-btn-delete">
+              <img src="./assets/delete.svg" alt="delete button" />
+            </button>
+          </td>
+        </tr>
+
+        <!-- Sample Data you can make edit to this after passing the data -->
+        <tr>
+          <td>2</td>
+          <td>domain.com</td>
+          <td>dinfae90r9qhrunidbfufah9q4rh9</td>
+          <td>18-05-2023</td>
+          <td>20-05-2025</td>
+          <td>
+            <button class="ad-btn-delete">
+              <img src="./assets/delete.svg" alt="delete button" />
+            </button>
+          </td>
+        </tr>
+
+        <!-- Sample Data you can make edit to this after passing the data -->
+        <tr>
+          <td>3</td>
+          <td>domain.com</td>
+          <td>dinfae90r9qhrunidbfufah9q4rh9</td>
+          <td>18-05-2023</td>
+          <td>20-05-2025</td>
+          <td>
+            <button class="ad-btn-delete">
+              <img src="./assets/delete.svg" alt="delete button" />
+            </button>
+          </td>
+        </tr>
+
+        <!-- Sample Data you can make edit to this after passing the data -->
+        <tr>
+          <td>4</td>
+          <td>domain.com</td>
+          <td>dinfae90r9qhrunidbfufah9q4rh9</td>
+          <td>18-05-2023</td>
+          <td>20-05-2025</td>
+          <td>
+            <button class="ad-btn-delete">
+              <img src="./assets/delete.svg" alt="delete button" />
+            </button>
+          </td>
+        </tr>
+
+        <!-- Sample Data you can make edit to this after passing the data -->
+        <tr>
+          <td>5</td>
+          <td>domain.com</td>
+          <td>dinfae90r9qhrunidbfufah9q4rh9</td>
+          <td>18-05-2023</td>
+          <td>20-05-2025</td>
+          <td>
+            <button class="ad-btn-delete">
+              <img src="./assets/delete.svg" alt="delete button" />
+            </button>
+          </td>
+        </tr>
+      </table>
+    </main>
+  </body>
+</html>

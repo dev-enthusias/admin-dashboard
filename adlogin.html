@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="adlogin.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="adlogin-main">
+      <div class="adlogin-form--wrapper">
+        <h1 class="adlogin-form__heading">Login</h1>
+        <p class="adlogin-form__welcome-note">
+          Welcome back Please enter your details.
+        </p>
+
+        <form action="">
+          <!-- Response message incase of invalid inputs -->
+          <span role="status" class="adlogin-error"></span>
+
+          <input
+            type="text"
+            name="email"
+            aria-label="email"
+            placeholder="Email"
+            class="mb-28 adlogin-form__input"
+          />
+
+          <input
+            type="password"
+            name="password"
+            aria-label="password"
+            placeholder="Password"
+            class="mb-30 adlogin-form__input"
+          />
+
+          <div>
+            <button type="submit" class="btn-submit btn">Login</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="adlogin-img--wrapper">
+        <img
+          src="./assets/loginpage.jpg"
+          alt="A boy on school bag looking at a building structure"
+        />
+      </div>
+    </main>
+  </body>
+</html>
