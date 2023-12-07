@@ -58,20 +58,6 @@
         </button>
       </div>
 
-      <form class="ad-new-user__form hidden">
-        <h2 aria-label="Add new user">Add new user</h2>
-        <label for="new-user">Domain:</label>
-        <input
-          type="text"
-          id="new-user"
-          name="domain_name"
-          placeholder="Insert user domain"
-        />
-        <div class="text-right">
-          <button>Add</button>
-        </div>
-      </form>
-
       <div class="flex-x-between mb-14">
         <p class="ad-total-users">
           All (
@@ -177,5 +163,27 @@
         </tr>
       </table>
     </main>
+
+    <!-- Add user form -->
+    <form class="ad-new-user__form hidden">
+      <div class="text-right">
+        <button type="button" class="ad-btn-close">&#x292B;</button>
+      </div>
+
+      <h2 aria-label="Add new user">Add new user</h2>
+      <label for="new-user">Domain:</label>
+      <input
+        type="text"
+        id="new-user"
+        name="domain_name"
+        placeholder="Insert user domain"
+      />
+      <div class="text-right">
+        <button class="btn">Add</button>
+      </div>
+    </form>
+
+    <!-- Overlay that would be display along side with the form -->
+    <div class="overlay hidden"></div>
   </body>
 </html>

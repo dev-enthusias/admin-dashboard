@@ -80,16 +80,34 @@ button {
 }
 
 .ad-new-user__form {
-  width: 32rem;
+  width: 40rem;
   box-shadow: 0 0 0.6rem rgba(0, 0, 0, 25%);
   background-color: #fefefe;
   border-radius: 0.5rem;
 
-  padding: 2rem;
+  padding: 1rem 2rem;
   margin-top: -2rem;
 
   position: absolute;
-  right: calc(9% / 2);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 40;
+}
+
+.ad-btn-close {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+
+  font-size: 3rem;
+  color: grey;
+  padding: 0 0.5rem;
+}
+
+.btn-close:focus {
+  outline: 2px solid rgb(36, 150, 62);
+  border-radius: .5rem;
 }
 
 .ad-new-user__form h2 {
@@ -114,7 +132,7 @@ button {
   font-size: 1.5rem;
 }
 
-.ad-new-user__form button {
+.ad-new-user__form .btn {
   background-color: rgb(18, 79, 18);
   padding: 1rem 1.5rem;
   border-radius: 0.5rem;
@@ -123,12 +141,12 @@ button {
 }
 
 .ad-btn-add:hover,
-.ad-new-user__form button:hover {
+.ad-new-user__form .btn:hover {
   background-color: rgba(18, 79, 18, 0.9);
 }
 
 .ad-btn-add:focus,
-.ad-new-user__form button:focus {
+.ad-new-user__form .btn:focus {
   outline: 2px solid rgb(36, 150, 62);
 }
 
@@ -225,6 +243,18 @@ button {
 .ad-btn-delete:focus {
   outline: 2px solid #023668;
   border-radius: 0.5rem;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  top: 0;
+  left: 0;
+
+  background: rgba(0, 0, 0, 70%);
+  z-index: 20;
 }
 
 .ad-footer {
