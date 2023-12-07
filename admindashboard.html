@@ -7,6 +7,8 @@
 
     <link rel="stylesheet" href="admindashboard.css" />
 
+    <script src="script.js" defer></script>
+
     <title>Document</title>
   </head>
   <body class="ad-body">
@@ -21,7 +23,7 @@
     <main class="ad-main">
       <div class="flex-x-between mb-30">
         <h1 class="text-24 font-bold">Users</h1>
-        <label for="toggle-addNew" class="ad-btn-add ad-btn">
+        <button for="toggle-addNew" class="ad-btn-add ad-btn">
           <svg
             width="15"
             height="16"
@@ -53,16 +55,22 @@
             </g>
           </svg>
           Add users
-        </label>
-        <input type="checkbox" id="toggle-addNew" class="ad-toggle-input" />
+        </button>
       </div>
 
-      <!-- <div class="modal">
-        <form class="ad-new-user__form">
-          <label for="new-user"></label>
-          <input type="text" id="new-user" />
-        </form>
-      </div> -->
+      <form class="ad-new-user__form hidden">
+        <h2 aria-label="Add new user">Add new user</h2>
+        <label for="new-user">Domain:</label>
+        <input
+          type="text"
+          id="new-user"
+          name="domain_name"
+          placeholder="Insert user domain"
+        />
+        <div class="text-right">
+          <button>Add</button>
+        </div>
+      </form>
 
       <div class="flex-x-between mb-14">
         <p class="ad-total-users">

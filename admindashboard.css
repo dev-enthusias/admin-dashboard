@@ -67,14 +67,6 @@ button {
   padding: 2rem 0;
 }
 
-.ad-toggle-input {
-  display: none;
-}
-
-.ad-btn-add:checked + .ad-new-user__form {
-  display: block;
-}
-
 .ad-btn-add {
   background-color: rgb(18, 79, 18);
   color: white;
@@ -87,21 +79,56 @@ button {
   gap: 0.4rem;
 }
 
-.ad-new-user_form {
-  background: #fff;
-  width: 60%;
-  max-width: 600px;
-  margin: 20% auto;
-  padding: 20px;
-  text-align: center;
-  position: relative;
+.ad-new-user__form {
+  width: 32rem;
+  box-shadow: 0 0 0.6rem rgba(0, 0, 0, 25%);
+  background-color: #fefefe;
+  border-radius: 0.5rem;
+
+  padding: 2rem;
+  margin-top: -2rem;
+
+  position: absolute;
+  right: calc(9% / 2);
 }
 
-.ad-btn-add:hover {
+.ad-new-user__form h2 {
+  margin-bottom: 1rem;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.ad-new-user__form label {
+  display: block;
+  margin-bottom: 0.7rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.ad-new-user__form input {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  border: 1px solid #5f5f5f;
+  background-color: #fefefe;
+  font-size: 1.5rem;
+}
+
+.ad-new-user__form button {
+  background-color: rgb(18, 79, 18);
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  color: white;
+  margin-top: 1rem;
+}
+
+.ad-btn-add:hover,
+.ad-new-user__form button:hover {
   background-color: rgba(18, 79, 18, 0.9);
 }
 
-.ad-btn-add:focus {
+.ad-btn-add:focus,
+.ad-new-user__form button:focus {
   outline: 2px solid rgb(36, 150, 62);
 }
 
@@ -122,12 +149,14 @@ button {
   font-size: 1.5rem;
 }
 
-.searchbar:hover {
+.searchbar:hover,
+.ad-new-user__form input:hover {
   outline: 1px solid #28a745;
   border: 1px solid transparent;
 }
 
-.searchbar:focus {
+.searchbar:focus,
+.ad-new-user__form input:focus {
   outline: 2px solid #28a745;
 }
 
@@ -240,6 +269,10 @@ button {
   line-height: 2.8rem;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .font-bold {
   font-weight: 600;
 }
@@ -268,5 +301,9 @@ button {
 
 .mb-19 {
   margin-bottom: 2rem;
+}
+
+.hidden {
+  display: none;
 }
 /* Utilities */
