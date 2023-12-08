@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2017 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="0.833331in" height="0.166661in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 833 167"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil7 {fill:url(#id0);fill-rule:nonzero}
+    .fil1 {fill:url(#id1);fill-rule:nonzero}
+    .fil8 {fill:url(#id2);fill-rule:nonzero}
+    .fil6 {fill:url(#id3);fill-rule:nonzero}
+    .fil0 {fill:url(#id4);fill-rule:nonzero}
+    .fil3 {fill:url(#id5);fill-rule:nonzero}
+    .fil5 {fill:url(#id6);fill-rule:nonzero}
+    .fil2 {fill:url(#id7);fill-rule:nonzero}
+    .fil4 {fill:url(#id8);fill-rule:nonzero}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="56" y1="129" x2="765" y2="89">
+   <stop offset="0" style="stop-opacity:1; stop-color:#003333"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#048A6F"/>
+  </linearGradient>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="56" y1="129" x2="765" y2="89">
+  </linearGradient>
+  <linearGradient id="id2" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="56" y1="129" x2="765" y2="89">
+  </linearGradient>
+  <linearGradient id="id3" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="56" y1="129" x2="765" y2="89">
+  </linearGradient>
+  <linearGradient id="id4" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="56" y1="129" x2="765" y2="89">
+  </linearGradient>
+  <linearGradient id="id5" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="56" y1="129" x2="765" y2="89">
+  </linearGradient>
+  <linearGradient id="id6" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="56" y1="129" x2="765" y2="89">
+  </linearGradient>
+  <linearGradient id="id7" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="56" y1="130" x2="765" y2="88">
+  </linearGradient>
+  <linearGradient id="id8" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="56" y1="129" x2="765" y2="89">
+  </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2929033838608">
+   <path class="fil0" d="M592 17l-24 0 -49 131 24 0 4 -11c9,7 21,11 33,11 12,0 23,-4 33,-11l4 11 24 0 -49 -131zm-12 107c-9,0 -18,-4 -24,-9l24 -65 7 19 17 46c-6,6 -15,9 -24,9z"/>
+   <path class="fil1" d="M483 17l-11 0 -6 0 -17 0 0 131 24 0 0 -10 11 0c31,0 56,-27 56,-60 0,-33 -25,-60 -56,-60zm0 97l-11 0 0 -73 11 0c19,0 34,16 34,36 0,20 -15,37 -34,37z"/>
+   <polygon class="fil2" points="772,123 772,109 807,109 807,83 772,83 772,43 828,43 828,17 772,17 748,17 748,43 748,83 748,109 748,123 748,148 772,148 832,148 832,123 "/>
+   <path class="fil3" d="M716 72l-2 0 0 25 1 0 0 13c-7,8 -17,14 -29,14 -21,0 -38,-18 -38,-41 0,-23 17,-41 38,-41 9,0 17,3 24,9l15 -18c-10,-10 -24,-16 -39,-16 -34,0 -61,29 -61,66 0,36 27,65 61,65 22,0 42,-13 52,-32l0 -1 0 -16 0 -16 0 0 0 -10 -22 0z"/>
+   <path class="fil4" d="M316 73l-1 0 0 24 0 6 0 6c-7,8 -17,14 -29,14 -21,0 -38,-18 -38,-40 0,-23 17,-41 38,-41 9,0 17,3 24,9l15 -18c-10,-10 -24,-15 -39,-15 -34,0 -61,29 -61,65 0,36 27,65 61,65 22,0 42,-13 52,-32l0 -1 0 -16 0 -16 0 0 0 -10 -22 0z"/>
+   <polygon class="fil5" points="223,148 223,17 199,17 199,148 "/>
+   <path class="fil6" d="M147 17l-24 0 -49 131 24 0 4 -11c9,7 21,11 33,11 12,0 23,-4 33,-11l4 11 24 0 -49 -131zm-12 107c-9,0 -18,-4 -24,-9l24 -65 7 19 17 46c-6,6 -15,9 -24,9z"/>
+   <path class="fil7" d="M47 70l-6 -3c-10,-5 -15,-8 -15,-16 0,-6 5,-11 12,-11 6,0 10,2 14,9l17 -16c-8,-12 -18,-17 -32,-17 -22,0 -36,15 -36,35 0,22 12,32 29,40l6 3c11,5 18,9 18,18 0,8 -6,13 -17,13 -11,0 -17,-5 -22,-13l-18 16c8,12 21,21 41,21 23,0 40,-13 40,-37 0,-22 -12,-32 -32,-41z"/>
+   <path class="fil8" d="M399 17l-24 0 -49 131 24 0 0 0 32 0c2,0 3,0 5,0 2,0 3,0 5,0l32 0 0 0 24 0 -49 -131z"/>
+  </g>
+ </g>
+</svg>
